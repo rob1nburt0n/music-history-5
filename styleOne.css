@@ -1,0 +1,107 @@
+.flex-container {
+  padding: 0;
+  margin: 0;  
+  display: flex;
+  flex-flow: row wrap;
+  
+}
+
+.flexbox {
+  display: flex;
+}
+
+.flex-item {  
+  padding: 10px;
+  width: 100px;
+  border: 2px solid black;
+}
+
+/*HEADER/NAV BAR*/
+
+.invisible {
+  height: 90px;
+  width: 96%;
+  margin: 30px auto;
+  position-top: fixed;
+  /*background-color: hotpink;*/
+  
+}
+
+.header {
+  height: 90px;
+  background-color: #FFB4B0;
+  border: 2px solid black;
+  position: fixed;
+  width: 95%;
+ 
+}
+
+nav {
+  padding: 20px;
+
+}
+
+/*LEFT SIDE*/
+
+#Album {
+  width: 150px;
+}
+
+#Artist {
+  width: 150px;
+}
+
+#filt {
+  margin-left: 50px;
+}
+
+.sidebar__left { 
+  flex-grow: 2;
+  background-color: #4DD7FA;
+  margin: 10px 25px 0 25px;
+  min-width: 200px;
+}
+
+.box {
+  width: 80px;
+  display: inline-block;
+}
+
+/*RIGHT SIDE */
+.sidebar__right { 
+  flex-grow: 9;
+  background-color: #FEFAC0;
+  margin: 10px 25px 0 25px;
+  min-width: 200px;
+}
+
+/*div .title {
+  font-size: 1.75em;
+  color: #785616;
+}*/
+.song-name:nth-child(2n+0) {
+  background-color: #FFF5EE;
+  font-size: 125%;
+}
+
+.song-name:nth-child(2n+1) {
+  background-color: #F5FFFA;
+  font-size: 125%;
+}
+
+.song-name:first-child {
+  font-weight: bold;
+}
+
+#deleteButton {
+margin-left: 75%;
+font-weight: bold;
+font-size: .75em;
+}
+
+#more {
+  font-weight: 75%;
+  font-size: .75em;
+}
+
+

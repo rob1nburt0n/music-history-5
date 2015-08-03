@@ -1,0 +1,106 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Nashville Software School</title>
+  <link type="style/css" rel="stylesheet" href="styleOne.css">
+</head>
+  <div class="invisible">
+    <header class="header">
+      <nav>
+        View Music | <a href="#">Add Music</a> | <a href="#">Profile</a>
+      </nav>
+    </header>
+  </div>
+  <div class="flex-container">
+    <section class="flex-item sidebar__left">
+      <section>
+        <article class="type">
+          <span>Song length:</span>
+          <br>
+          <br>
+          <input type="range" </div>
+          <br>
+          <br>
+          <legend>Artist:</legend>
+          <select id="Artist">
+            <option></option>
+            <option value="Eric Church">Eric Church</option>
+            <option value="ZZTop">ZZTop</option>
+            <option value="Supertramp">Supertramp</option>
+            <option value="Pink Floyd">Pink Floyd</option>
+            <option value="Guns & Roses">Guns & Roses</option>
+            <option value="Alanis Morisette">Alanis Morisette</option>
+            <option value="Joan Jett">Joan Jett</option>
+          </select>
+          <br>
+          <br>
+          <legend>Album:</legend>
+          <select id="Album">
+            <option></option>
+            <option value="Chief">Chief</option>
+            <option value="Eliminator">Eliminator</option>
+            <option value="Breakfast in America">Breakfast in America</option>
+            <option value="The Wall">The Wall</option>
+            <option value="Appetite for Destruction">Appetite for Destruction</option>
+            <option value="Jagged Little Pill">Jagged Little Pill</option>
+            <option value="I Love Rock 'n' Roll">I Love Rock 'n' Roll</option>
+          </select>
+          <br>
+          <br>
+          <legend>Genre:</legend>
+          <br>
+          <div>
+            <span class="box">
+             <input type= "checkbox" name= "Rock" value="Rock">Rock
+           </span>
+            <input type="checkbox" name="Classical" value="Classical">Classical
+          </div>
+          <br>
+          <div>
+            <span class="box">
+             <input type= "checkbox" name= "Pop" value="Pop">Pop
+           </span>
+            <input type="checkbox" name="Jazz" value="Jazz">Jazz
+          </div>
+          <br>
+          <div>
+            <span class="box">
+             <input type= "checkbox" name= "Blues" value="Blues">Blues
+           </span>
+            <input type="checkbox" name="Hip hop" value="Hip hop">Hip hop
+          </div>
+          <br>
+          <div id="filt">
+            <input type="submit" value="Filter">
+          </div>
+        </article>
+      </section>
+    </section>
+    <section class="flex-item sidebar__right">
+      <article class="style">
+        <div id ="songs">
+        <input type="button" id="more" value="More">
+          
+          <!-- <p class="title">The Cave</p> -->
+         <!--  <p class="space">Mumford and Sons | Sigh No More | Rock (folk)</p>
+          <p class="title">Crimson and Clover</p>
+          <p class="space">Joan Jett | I Love Rock 'n' Roll | Rock
+            <p class="title">Springsteen</p>
+            <p class="space">Eric Church | Chief | Country
+              <p class="title">Felt Good on My Lips</p>
+              <p class="space">Tim McGraw | Number One Hits | Country</p> -->
+        </div>
+        
+      </article>
+    </section>
+  </div>
+  <script src="./bower_components/jquery/dist/jquery.min.js"></script>
+  <script data-main="javascripts/mainMusic"src="bower_components/requirejs/require.js"></script>
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<!-- <script type="text/javascript" src="mainOne.js"></script> -->
+
+</body>
+
+</html>
