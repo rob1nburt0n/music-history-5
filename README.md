@@ -1,4 +1,9 @@
 # music-history-5
+
+#clone
+git clone https://github.com/rob1nburt0n/music-history-5.git
+
+
 # Install Node if you don't have it
 
 ```
